@@ -25,3 +25,14 @@ Setup CLion to use the container by following the instructions from the [CLion h
 Stop the container with `docker stop clion_remote_env_epitech`.
 
 To run the container again, simply run the `run.sh` script again.
+
+## use in a project
+
+Load your project in CLion.
+
+Select the remote host toolchain you created earlier to build your project with it instead of the default toolchain.
+
+Follow the instructions depending on your build system:
+
+- [CMake](https://www.jetbrains.com/help/clion/cmake0.html)
+- [Makefile](https://www.jetbrains.com/help/clion/makefiles-support.html)
